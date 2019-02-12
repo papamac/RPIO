@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ports>
+
+    <!--  Channels 0-7  -->
+
+    <port type="MCP_DIO"
+          polling="0"
+          report_changes="True"
+          starting_channel="0"
+          ending_channel="7"
+          mcp_address="0"
+          port_number="0">
+    </port>
+
+    <!--  Channels 8-15  -->
+
+    <port type="MCP_DIO"
+          polling="0"
+          report_changes="True"
+          starting_channel="8"
+          ending_channel="15"
+          mcp_address="0"
+          port_number="1">
+    </port>
+
+</ports>

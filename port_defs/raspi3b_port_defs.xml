@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ports>
+
+    <!--  Channels 0-2  -->
+
+    <port type="BCM_DIO"
+          polling="0"
+          report_changes="True"
+          starting_channel="0"
+          ending_channel="2"
+          bcm_starting_channel = "4">
+    </port>
+
+    <!--  Channels 3-4  -->
+
+    <port type="BCM_DIO"
+          polling="0"
+          report_changes="True"
+          starting_channel="3"
+          ending_channel="4"
+          bcm_starting_channel = "12">
+    </port>
+
+    <!--  Channels 5-15  -->
+
+    <port type="BCM_DIO"
+          polling="0"
+          report_changes="True"
+          starting_channel="5"
+          ending_channel="15"
+          bcm_starting_channel = "16">
+    </port>
+
+</ports>

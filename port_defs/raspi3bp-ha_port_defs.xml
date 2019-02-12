@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ports>
+
+    <!--  Channels 0-7  -->
+
+    <port type="MCP_DIO"
+          polling="0"
+          report_changes="True"
+          starting_channel="0"
+          ending_channel="7"
+          mcp_address="0"
+          port_number="0">
+    </port>
+
+    <!--  Channels 8-15  -->
+
+    <port type="MCP_DIO"
+          polling="0"
+          report_changes="True"
+          starting_channel="8"
+          ending_channel="15"
+          mcp_address="0"
+          port_number="1">
+    </port>
+
+    <!--  Channels 16-23  -->
+
+    <port type="MCP_DIO"
+          polling="0"
+          report_changes="True"
+          starting_channel="16"
+          ending_channel="23"
+          mcp_address="1"
+          port_number="0">
+    </port>
+
+    <!--  Channels 24-31  -->
+
+    <port type="MCP_DIO"
+          polling="0"
+          report_changes="True"
+          starting_channel="24"
+          ending_channel="31"
+          mcp_address="1"
+          port_number="1">
+    </port>
+
+     <!--  Channels 100-103  -->
+
+    <port type="MCP_ADC"
+          polling="300"
+          report_changes="False"
+          starting_channel="100"
+          ending_channel="103"
+          mcp_address="0">
+    </port>
+
+    <!--  Channels 104-107  -->
+
+    <port type="MCP_ADC"
+          polling="-1"
+          report_changes="False"
+          starting_channel="104"
+          ending_channel="107"
+          mcp_address="1">
+    </port>
+
+</ports>

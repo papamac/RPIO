@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ports>
+
+    <!--  Channels 0-7  -->
+
+    <port type="MCP_DIO"
+          polling="0"
+          report_changes="True"
+          starting_channel="0"
+          ending_channel="7"
+          mcp_address="0"
+          port_number="0">
+    </port>
+
+    <!--  Channels 8-15  -->
+
+    <port type="MCP_DIO"
+          polling="0"
+          report_changes="True"
+          starting_channel="8"
+          ending_channel="15"
+          mcp_address="0"
+          port_number="1">
+    </port>
+
+    <!--  Channels 16-23  -->
+
+    <port type="MCP_DIO"
+          polling="0"
+          report_changes="True"
+          starting_channel="16"
+          ending_channel="23"
+          mcp_address="1"
+          port_number="0">
+    </port>
+
+    <!--  Channels 24-31  -->
+
+    <port type="MCP_DIO"
+          polling="0"
+          report_changes="True"
+          starting_channel="24"
+          ending_channel="31"
+          mcp_address="1"
+          port_number="1">
+    </port>
+
+    <!--  Channels 32-34  -->
+
+    <port type="BCM_DIO"
+          polling="0"
+          report_changes="True"
+          starting_channel="32"
+          ending_channel="34"
+          bcm_starting_channel = "4">
+    </port>
+
+    <!--  Channels 35-36  -->
+
+    <port type="BCM_DIO"
+          polling="0"
+          report_changes="True"
+          starting_channel="35"
+          ending_channel="36"
+          bcm_starting_channel = "12">
+    </port>
+
+    <!--  Channels 37-39  -->
+
+    <port type="BCM_DIO"
+          polling="0"
+          report_changes="True"
+          starting_channel="37"
+          ending_channel="39"
+          bcm_starting_channel = "16">
+    </port>
+
+    <!--  Channels 40-47  -->
+
+    <port type="BCM_DIO"
+          polling="300"
+          report_changes="False"
+          starting_channel="40"
+          ending_channel="47"
+          bcm_starting_channel = "19">
+    </port>
+
+    <!--  Channels 100-103  -->
+
+    <port type="MCP_ADC"
+          polling="300"
+          report_changes="False"
+          starting_channel="100"
+          ending_channel="103"
+          mcp_address="0">
+    </port>
+
+    <!--  Channels 104-107  -->
+
+    <port type="MCP_ADC"
+          polling="-1"
+          report_changes="False"
+          starting_channel="104"
+          ending_channel="107"
+          mcp_address="1">
+    </port>
+
+</ports>
